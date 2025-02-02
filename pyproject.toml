@@ -1,0 +1,11 @@
+[project]
+name = "JAXMonteCarloSims"
+version = "0.1.0"
+description = "A JAX implementation of the Monte Carlo simulation examples from https://www.youtube.com/watch?v=OdWLP8umw3A&lc=UgzfgocRU5DOnfuMXZV4AaABAg.AE-l-zt-2AqAE2OsGBogzk"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "jax[cuda12]>=0.5.0",
+    "matplotlib>=3.10.0",
+]
